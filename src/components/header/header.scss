@@ -1,0 +1,51 @@
+#header {
+	height: 100px;
+    margin: 0 auto;
+    padding-top: 15px;
+    position: relative;
+	.header-left {
+		a {
+			background-image: url(../../assets/images/logo.png);
+			width: 320px;
+		    height: 65px;
+		    display: block;
+		}
+	}
+	.header-right {
+		z-index: 1;
+		.header-member-act {
+			.f-act-login {
+			    background-image: url(../../assets/images/btn_login.png);
+			    color: #fff;
+			}
+			.f-act-register {
+			    background-image: url(../../assets/images/btn_register.png);
+			    color: #000;
+			}
+			a {
+				display: inline-block;
+			    width: 148px;
+			    height: 37px;
+			    text-align: center;
+			    line-height: 37px;
+			    font-weight: bold;
+			    font-size: 14px;
+			}
+		}
+		.header-top-link {
+		    text-align: right;
+		    margin-bottom: 12px;
+		    margin-right: 30px;
+			a {
+				padding: 0 8px;
+		    	text-decoration: none;
+		    	color: #474747;
+		    	padding: 0;
+		    	margin: 0;
+		    	font-size: 13px;
+			    margin-left: 6px;
+			    margin-right: 6px;
+			}
+		}
+	}
+}

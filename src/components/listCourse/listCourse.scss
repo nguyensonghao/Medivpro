@@ -1,0 +1,38 @@
+#list-courses {
+	margin-top: 20px;
+	.col-md-6 {
+		margin-bottom: 10px;
+		margin-top: 10px;
+	}
+	.item-courses {
+	    background: white;
+	    overflow: auto;
+	    border-radius: 15px;
+	    .logo-courses {
+			float: left;
+		}
+		.text-courses {
+			height: 136px;
+			p {
+				padding-left: 130px;
+				margin-bottom: 0;
+			}
+			.title {
+			    font-size: 20px;
+			    color: #4b4b4b;
+			    margin-left: 25px;
+                position: relative;
+                padding-top: 6px;
+			}
+			.sub-title {
+			    font-size: 14px;
+			    color: #7d7d7d;
+			    margin-left: 25px;
+			}
+			.text-courses-top {
+				border-bottom: 1px solid #ddd;
+				height: 50%;
+			}
+		}
+	}
+}

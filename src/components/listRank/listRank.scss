@@ -1,0 +1,76 @@
+#list-rank {
+	padding-bottom: 15px;
+	background-color: #fff;
+    border-radius: 12px;
+    box-shadow: -2px 2px 1px -1px #E0DFDF;
+    >.col-md-12 {
+    	padding-bottom: 60px;
+    	border-bottom: 1px solid #ddd;
+    	margin-bottom: 20px;
+    }
+    .intro {
+    	p {
+    		font-size: 13px;
+    	}
+    	.h-btt-datthe {
+		    background-color: #247ba0;
+		    border-radius: 5px;
+		    color: #fff;
+		    font-family: RobotoSlab-Regular;
+		    font-size: 18px;
+		    padding: 15px 40px;
+		    text-align: center;
+		    width: 82%;
+		    margin-bottom: 20px;
+		    margin-top: 20px;
+		}
+    }
+	.avatar {
+		position: relative;
+		float: left;
+		.avatar-image {
+			width: 109px;
+		    border: 1px solid #ccc;
+		    border-radius: 50%;
+		}
+		.metal {
+			height: 63px;
+		    position: absolute;
+		    top: 80px;
+		    left: 55px;
+		    transform: translate(-50%, 0px);
+		    -ms-transform: translate(-50%, 0px);
+		    -webkit-transform: translate(-50%, 0px);
+		}
+	}
+	.info_slide {
+		padding-left: 120px;
+		.name_info {
+			color: #dd5555;
+		    font-family: Arial;
+		    font-size: 14px;
+		    line-height: 24px;
+		    font-weight: bold;
+		}
+		.class_info {
+		    font-size: 12px;
+		    color: #929292;
+		}
+		.score_info {
+		    color: #474747;
+		    font-family: "Arial",sans-serif;
+		    font-size: 12px;
+		    line-height: 24px;
+		}
+	}
+	.main-title {
+	    font-weight: bold;
+	    font-size: 16px;
+	    color: #000;
+	    background-repeat: no-repeat;
+	    background-position: bottom center;
+	    padding-bottom: 20px;
+	    margin-left: 15px;
+    	margin-top: 20px;
+	}
+}

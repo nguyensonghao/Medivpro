@@ -1,0 +1,34 @@
+#wrapper {
+    background: url(../images/top-bg.jpg) top center repeat-x, url(../images/body-bottom.jpg) bottom center no-repeat;
+    min-height: 1475px;
+    background-color: #E7F8E9;
+    padding-bottom: 20px;
+}
+.cloud-decoration-1 {
+	position: absolute;
+    left: -40px;
+    top: 68px;
+}
+.cloud-decoration-2 {
+ 	position: absolute;
+    right: -30px;
+    top: 50px;
+}
+.cloud-decoration-3 {
+	position: absolute;
+    left: 160px;
+    top: 115px;
+}
+.cloud-decoration-4 {
+	position: absolute;
+    right: 30px;
+    top: 140px;
+}
+// Helper component
+.text-right {
+	text-align: right;
+}
+
+.text-left {
+	text-align: left;
+}

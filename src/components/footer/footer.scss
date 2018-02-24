@@ -1,0 +1,113 @@
+#footer{
+    margin: 0 auto;
+    position: relative;
+    bottom: 0;
+    background: url(../../assets/images/footer.png) top center no-repeat #ffffe7;
+    clear: both;
+
+    #top-footer{
+	    height: 48px;
+	    line-height: 48px;
+	    margin: 0 auto;
+	    font-weight: bold;
+	    color: #ffcf8f;
+	}
+
+	#top-footer a{
+	    color: #ffcf8f;
+	    font-weight: bold;
+	    font-size: 12px;
+	}
+
+	#center-footer{
+	    line-height: 24px;
+	    padding-top: 10px;
+	    margin: 0 auto;
+	    /*height: 170px;*/
+	    height: 100px;
+	}
+	#center-footer .foo-title-class {
+	    font-size: 12px;
+	    font-weight: bold;
+	    color: #d55;
+	    text-transform: uppercase;
+	}
+	#center-footer .foo-list-class li a{
+	    color: #564d38;
+	    font-size: 12px;
+	}
+	.foo-list-class {
+	    float: left;
+	    width: 240px;
+	}
+	#bottom-footer{
+	    margin: 0 auto;
+	    height: 95px;
+	    padding-bottom: 30px;
+	    clear: both;
+	    margin-top: 30px;
+	}
+	.footer-logo {
+		float: left;
+	}
+	#bottom-footer .b_logo{
+	    background-image: url(../../assets/images/foo-logo.png);
+	    background-position: left center;
+	    background-repeat: no-repeat;
+	    width: 187px;
+	    height: 52px;
+	    float: left;
+	}
+	#bottom-footer .info_foo {
+	    padding-left: 215px;
+	}
+	#bottom-footer .foo_text_info{
+	    font-size: 11px;
+	    color: #bf9843;
+	}
+	#bottom-footer .foo_add {
+	    font-size: 11px;
+	    color: #010101;
+	}
+	#bottom-footer .social_foo{
+	    position: absolute;
+	    right: 20%;
+	    bottom: 20%;
+	}
+	.social_foo .fb_icon{
+	    // background-image:url(../../assets/images/icon_fb.png);
+	    background-repeat:no-repeat;
+	    display:inline-block;
+	    width:31px;
+	    height:31px;
+	}
+	.social_foo .ct_icon{
+	    // background-image: url(../../assets/images/ic-congthuong.png);
+	    background-repeat: no-repeat;
+	    display: inline-block;
+	    width: 164px;
+	    height: 61px;
+	    position: relative;
+	    margin-left: 0px;
+	}
+	.social_foo a{
+	    margin-left: 20px;
+	}
+	.social_foo .tw_icon{
+	    // background-image:url(../../assets/images/icon_tw.png);
+	    background-repeat:no-repeat;
+	    display:inline-block;
+	    width:31px;
+	    height:31px;
+	}
+	.social_foo .rss_icon{
+	    // background-image:url(../../assets/images/icon_rss.png);
+	    background-repeat:no-repeat;
+	    display:inline-block;
+	    width:31px;
+	    height:31px;
+	}
+	li {
+		list-style: none;
+	}
+}
