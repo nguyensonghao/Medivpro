@@ -1,0 +1,22 @@
+.forum-item {
+    background: white;
+    margin-bottom: 10px;
+    padding: 10px;
+    .avatar {
+        float: left;
+        position: relative;
+        .main-avatar {
+            width: 80px;
+            border-radius: 50%;
+        }
+        .vip-avatar {
+            position: absolute;
+            top: 70px;
+            left: 20px;
+        }
+        .name {
+            color: #ec5c51;
+            font-weight: bold;
+        }
+    }
+}

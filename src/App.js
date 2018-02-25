@@ -1,13 +1,10 @@
 import React, { Component } from 'react';
-import { Switch, Route, Link } from "react-router-dom";
 
 import './assets/css/main.css';
+import Router from './router';
 
 import Header from './components/header/header';
 import PrimaryMenu from './components/primaryMenu/primaryMenu';
-import Home from './containers/home/home';
-import Login from './containers/login/login';
-import Register from './containers/register/register';
 import Footer from './components/footer/footer';
 
 class App extends Component {
@@ -18,12 +15,7 @@ class App extends Component {
                     <div className="container">
                         <Header />
                         <PrimaryMenu />
-                        <Switch>
-                            <Route exact path="/" component={Home} />
-                            <Route path="/login" component={Login} />
-                            <Route path="/register" component={Register} />
-                        </Switch>
-                        <Register />
+                        <Router/>
                     </div>
                 </div>
                 <Footer />

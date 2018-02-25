@@ -1,0 +1,17 @@
+.entertainment-box {
+    padding: 10px;
+    .content {
+        padding: 10px;
+        text-align: center;
+        background: white;
+        .title {
+            font-size: 18px;
+        }
+        .image {
+            width: 100%;
+        }
+        .btn-view-now {
+            margin-top: 15px;
+        }
+    }
+}

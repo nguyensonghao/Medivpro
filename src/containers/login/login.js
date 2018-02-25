@@ -19,7 +19,7 @@ export default class Login extends Component {
                         </div>
                         <div className="remember-login">
                             <input type="checkbox" id="remember-login-checkbox"/>
-                            <label for="remember-login-checkbox">Tự động đăng nhập lần sau</label>
+                            <label htmlFor="remember-login-checkbox">Tự động đăng nhập lần sau</label>
                         </div>
                         <button className="btn-login">Đăng nhập</button>
                         <div className="option-ctl">
