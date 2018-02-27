@@ -4,10 +4,21 @@
         
     }
     #forum-sidebar {
-        padding-left: 10px;
+        padding: 0;
         .forum-sidebar-content {
             background: white;
             padding: 6px;
+            padding-left: 10px;
+        }
+        .item {
+            margin-bottom: 8px;
+            margin-top: 6px;
+            i {
+                color: #4e4d4d;
+            }
+        }
+        .btn-success {
+            margin-top: 10px;
         }
     }
 }

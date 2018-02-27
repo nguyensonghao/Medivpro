@@ -7,6 +7,8 @@ import Register from './containers/register/register';
 import Entertainment from './containers/entertainment/entertainment';
 import Forum from './containers/forum/forum';
 import Payment from './containers/payment/payment';
+import Profile from './containers/profile/profile';
+import ForgotPassword from './containers/forgotPassword/forgotPassword';
 
 export default class Router extends Component {
     render() {
@@ -18,6 +20,8 @@ export default class Router extends Component {
                 <Route path="/giai-tri" component={Entertainment} />
                 <Route path="/dien-dan" component={Forum} />
                 <Route path="/thanh-toan" component={Payment} />
+                <Route path="/thong-tin" component={Profile} />
+                <Route path="/quen-mat-khau" component={ForgotPassword} />
             </Switch>
         );
     }

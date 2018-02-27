@@ -6,7 +6,7 @@ export default class Register extends Component {
     render() {
         return (
             <div className="register-page col-md-12">
-                <div className="col-md-8">
+                <div className="col-md-12">
                     <legend>Đăng ký tài khoản mới</legend>
                     <form className="form-register">
                         <div className="form-group">
@@ -41,10 +41,7 @@ export default class Register extends Component {
                             <label>Lớp</label>
                             <input type="text" name="username"/>
                         </div>
-                        <button className="btn-register">Đăng nhập</button>
-                        <div className="option-ctl">
-                            <a href="https://www.luyenthi123.com/quen-mat-khau">Quên mật khẩu</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://www.luyenthi123.com/dang-ky">Đăng kí tài khoản mới</a>
-                        </div>
+                        <button className="btn-register">Đăng ký</button>
                     </form>
                 </div>
                 <div className="col-md-4">

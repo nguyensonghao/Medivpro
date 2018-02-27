@@ -2,6 +2,7 @@
     background: white;
     margin-top: 20px;
     padding: 60px 20px;
+    text-align: center;
     .btn-register {
         background-color: #dd5555;
         border: 1px solid #b53131;
@@ -20,11 +21,12 @@
     }
     .form-register {
         background: #fdfef3;
-        width: 480px;
+        width: 600px;
         border: 2px solid #eeaaaa;
         border-radius: 10px;
         padding: 20px 40px;
         text-align: center;
+        margin: auto;
         .form-group {
             label {
                 display: block;

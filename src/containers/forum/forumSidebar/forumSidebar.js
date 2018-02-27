@@ -6,18 +6,17 @@ export default class ForumSidebar extends Component {
             <div className="col-md-3" id="forum-sidebar">
                 <div className="forum-sidebar-content">
                     <div className="item">
-                        Nội quy hỏi đáp
+                        <i className="icon-list-alt"></i> Nội quy hỏi đáp
                     </div>
                     <div className="item">
-                        Giải thưởng
+                        <i className="icon-trophy"></i> Giải thưởng
                     </div>
                     <button className="btn btn-primary">
-                        <i class="fa fa-paper-plane" aria-hidden="true"></i>
-                        Gửi câu hỏi
+                        <i className="icon-plus"></i> Gửi câu hỏi
                     </button>
-                    <div className="rank">
-                        <p>Bảng xếp hạng</p>
-                    </div>
+                    <button className="btn btn-success">
+                        <i className="icon-user"></i> Câu hỏi của bạn
+                    </button>
                 </div>
             </div>
         );

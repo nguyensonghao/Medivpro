@@ -1,22 +1,61 @@
 .forum-item {
+    border-radius: 6px;
     background: white;
     margin-bottom: 10px;
-    padding: 10px;
-    .avatar {
-        float: left;
-        position: relative;
-        .main-avatar {
-            width: 80px;
-            border-radius: 50%;
+    // padding: 10px;
+    .header-forum {
+        padding: 10px;
+        height: 90px;
+        .avatar {
+            float: left;
+            position: relative;
+            margin-right: 10px;
+            .main-avatar {
+                width: 80px;
+                border-radius: 50%;
+            }
+            .vip-avatar {
+                position: absolute;
+                top: 70px;
+                left: 20px;
+            }
         }
-        .vip-avatar {
-            position: absolute;
-            top: 70px;
-            left: 20px;
+        .detail {
+            .name {
+                color: #ec5c51;
+                font-weight: bold;
+                margin-bottom: 2px;
+            }
+            .date {
+                font-size: 12px;
+                font-style: italic;
+                font-weight: bold;
+                margin-bottom: 2px;
+            }
+            .tag {
+                background: #337ab7;
+                display: inline-block;
+                padding: 2px 4px;
+                color: white;
+                font-size: 11px;
+                border-radius: 4px;
+            }
         }
-        .name {
-            color: #ec5c51;
+    }
+    .content-forum {
+        padding: 10px;
+        margin-top: 10px;
+    }
+    .footer-forum {
+        padding: 4px;
+        overflow: auto;
+        border-top: 1px solid #ececec;
+        .footer-forum-item {
+            font-size: 13px;
+            float: left;
+            margin-right: 20px;
             font-weight: bold;
+            cursor: pointer;
         }
     }
 }

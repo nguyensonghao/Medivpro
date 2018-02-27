@@ -1,3 +1,63 @@
 #payment-page {
-    
+    background: white;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    .title-type-card {
+        color: #65b24a;
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-top: 30px;
+    }
+    .list-type-card {
+        text-align: left;
+        .type-card-item {
+            // text-align: center;
+            .check-type {
+                margin-top: 10px;
+                margin-left: 2px;
+                label {
+                    cursor: pointer;
+                    font-size: 15px;
+                    font-weight: 400;
+                }
+                input[type="checkbox"] {
+                    position: relative;
+                    margin-right: 4px;
+                    top: 2px;
+                }
+            }
+            margin-bottom: 30px;
+        }
+    }
+    .title {
+        color: #fb6b00;
+        font-size: 18px;
+        text-align: center;
+        margin-top: 25px;
+    }
+    .enter-card {
+        form {
+            margin-top: 20px;
+        }
+        input[type="text"] {
+            border-radius: 10px;
+            border-radius: 10px;
+            border: 1px solid #c8c292;
+            background-color: #f0f6ce;
+            text-align: center;
+            border: 1px solid #bababa;
+            color: #422f2f;
+            font-size: 15px;
+            padding: 10px 24px;
+            width: 80%;
+        }
+        label {
+            font-size: 17px;
+            font-weight: 400;
+            display: block;
+            margin-bottom: 10px;
+        }
+    }
 }

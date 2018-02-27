@@ -14,17 +14,21 @@ export default class ForumItem extends Component {
                     <div className="detail">
                         <p className="name">hoangnanit</p>
                         <p className="date">Gửi lúc: 16:54 25/02/2017</p>
+                        <div className="tag">Bài tập</div>
                     </div>
                 </div>
                 <div className="content-forum">
-                    <p>hãy kể những tính cách của từng cung trong 12 cung hoàng đạo?</p>
+                    <p className="text">Hãy kể những tính cách của từng cung trong 12 cung hoàng đạo?</p>
                 </div>
                 <div className="footer-forum">
-                    <div class="footer-forum-item">
-                        32 bình luận
+                    <div className="footer-forum-item">
+                        <i className="icon-thumbs-up"></i> 10 Thích
                     </div>
-                    <div class="footer-forum-item">
-                        10 chia sẻ
+                    <div className="footer-forum-item">
+                    <i className="icon-comments-alt"></i> 32 bình luận
+                    </div>
+                    <div className="footer-forum-item">
+                    <i className="icon-share"></i> 10 chia sẻ
                     </div>
                 </div>
             </div>
