@@ -1,0 +1,31 @@
+#test-page {
+    background: white;
+    margin-top: 20px;
+    padding: 15px;
+    .chat-box-container {
+        margin-top: 10px;
+        .chat-box-message {
+            max-height: 450px;
+            overflow: auto;
+            .message {
+                overflow: auto;
+                margin-top: 15px;
+                margin-bottom: 15px;
+                .message-avatar {
+                    float: left;
+                    img {
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 50%;
+                        margin-right: 10px;
+                    }
+                }
+                .message-text {
+                    font-size: 13px;
+                    font-weight: 600;
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+}

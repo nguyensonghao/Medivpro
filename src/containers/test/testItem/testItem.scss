@@ -1,0 +1,33 @@
+.test-item {
+    margin: 0;
+    .question {
+        margin-bottom: 20px;
+        .stt-question {
+            display: inline-block;
+            border: 1px solid #58960f;
+            padding: 6px 12px;
+            color: #58960f;
+            border-radius: 12px;
+            margin-right: 10px;
+            font-size: 16px;
+        }
+        .text-question {
+            font-weight: bold;
+            font-size: 16px;
+        }
+    }
+    .box-answer-item {
+        margin-bottom: 10px;
+        cursor: pointer;
+        label {
+            font-weight: 500;
+            cursor: pointer;
+            font-size: 15px;
+        }
+        input {
+            position: relative;
+            top: 2px;
+            margin-right: 10px;        
+        }
+    }
+}

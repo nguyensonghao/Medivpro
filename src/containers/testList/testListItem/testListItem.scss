@@ -1,0 +1,15 @@
+.test-list-item {
+    border-bottom: 1px solid #ececec;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    overflow: auto;
+    img {
+        width: 160px;
+        height: 100px;
+        float: left;
+        margin-right: 10px;
+    }
+    .name {
+        font-size: 15px;
+    }
+}

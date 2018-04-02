@@ -12,10 +12,10 @@ export default class PrimaryMenu extends Component {
                         <a>Học thử</a>
                     </li>
                     <li>
-                        <a>Làm bài</a>
+                        <Link to="/lam-bai">Làm bài</Link>
                     </li>
                     <li>
-                        <a>Phòng luyện tốc độ</a>
+                        <Link to="/kiem-tra">Phòng luyện tốc độ</Link>
                     </li>
                     <li>
                         <Link to="/dien-dan">Diễn đàn</Link>

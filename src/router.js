@@ -9,6 +9,9 @@ import Forum from './containers/forum/forum';
 import Payment from './containers/payment/payment';
 import Profile from './containers/profile/profile';
 import ForgotPassword from './containers/forgotPassword/forgotPassword';
+import TestCate from './containers/testCate/testCate';
+import TestList from './containers/testList/testList';
+import Test from './containers/test/test';
 
 export default class Router extends Component {
     render() {
@@ -22,6 +25,9 @@ export default class Router extends Component {
                 <Route path="/thanh-toan" component={Payment} />
                 <Route path="/thong-tin" component={Profile} />
                 <Route path="/quen-mat-khau" component={ForgotPassword} />
+                <Route exact path="/lam-bai" component={TestCate} />
+                <Route path="/lam-bai/:id" component={TestList} />
+                <Route path="/kiem-tra" component={Test} />
             </Switch>
         );
     }
